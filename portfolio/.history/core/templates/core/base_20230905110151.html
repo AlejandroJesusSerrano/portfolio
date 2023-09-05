@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Personal - {% block title %} {% endblock title %}</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+
+  <h1>Mi Portfolio Personal</h1>
+  <ul>
+    <li> <a href={% url 'home' %}>Inicio</a> </li>
+    <li> <a href={% url 'about' %}>Acerca de Mi</a> </li>
+    <li> <a href={% url 'portfolio' %}>Portfolio</a> </li>
+    <li> <a href={% url 'curriculum' %}>Curriculum</a> </li>
+    <li> <a href={% url 'contact' %}>Contáctame</a> </li>
+  </ul>
+
+  <!-- CONTENT - Template Tags -->
+
+  {% block content %} {%endblock content%}
+</body>
+
+</html>
