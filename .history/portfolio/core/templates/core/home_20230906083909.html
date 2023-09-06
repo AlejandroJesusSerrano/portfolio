@@ -1,0 +1,12 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block title %} Inicio {% endblock title %}
+
+{% block content %}
+<h3>Página Principal</h3>
+<div class="container w-100">
+  <img src={% static 'img/sancarlos_noche_web.jpg' %} class="w-100" alt="">
+</div>
+<p>Esta es la página principal</p>
+{% endblock content %}

@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@500;700&family=Average+Sans&family=Mulish:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.brand {
+  font-family: "Arima", cursive;
+  font-size: 3rem;
+  color: #f8f9fa;
+}
+
+.nav_menu {
+  font-family: "Average Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+.develop {
+  font-family: "Arima", cursive;
+  font-size: 1.25rem;
+}
+
+.home {
+  background-image: url(../img/sancarlos_noche_web.jpg);
+}
+
+.img-bkg {
+  background-position: center center;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
